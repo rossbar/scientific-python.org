@@ -1,3 +1,7 @@
+[build]
+  command = "hugo --buildDrafts"
+  publish = "public"
+
 [context.production.environment]
   HUGO_VERSION = "0.79.0"
 
